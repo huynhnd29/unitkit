@@ -96,3 +96,83 @@ export const OurAwesomeTeam2ItemWrapper = styled.div`
     text-align: center;
   }
 `;
+export const OurAwesomeTeam3Wrapper = styled.div`
+  width: 100%;
+  height: 932px;
+  background-image: url("https://demos.creative-tim.com/now-ui-kit-pro-react/static/media/bg21.5a9a9871.jpg");
+  .blurr {
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 1140px;
+    padding-top: 30px;
+    h2 {
+      text-align: center;
+      font-weight: 700;
+      padding-top: 30px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 2.5em;
+      margin-bottom: 0px;
+    }
+    h4 {
+      color: hsla(0, 0%, 100%, 0.8);
+      font-size: 1.5em;
+      line-height: 1.45em;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      text-align: center;
+      width: 800px;
+      font-weight: 300;
+    }
+    .row {
+      display: flex;
+    }
+  }
+`;
+
+export const OurAwesomeTeam3ItemWrapper = styled.div`
+  width: 540px;
+  height: 207px;
+  background: white;
+  border-radius: 0.2rem;
+  margin: 40px 15px;
+  display: flex;
+  text-align: center;
+  overflow: hidden;
+  img {
+    height: 100%;
+  }
+  .right-content {
+    padding: 20px;
+    h3 {
+      font-weight: 400;
+      font-size: 1.825em;
+      margin-bottom: 0.75rem;
+      margin-top: 5px;
+    }
+    h6 {
+      text-transform: capitalize;
+      font-weight: 700;
+      color: #2ca8ff !important;
+      margin-bottom: 0.5rem;
+      margin-top: 0;
+      font-size: 0.8rem;
+    }
+    p {
+      color: #9a9a9a;
+      font-weight: 300;
+      line-height: 1.61em;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-size: 1.2em;
+      text-align: center;
+    }
+  }
+`;
